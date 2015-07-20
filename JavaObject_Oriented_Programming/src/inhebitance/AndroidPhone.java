@@ -39,7 +39,7 @@ public class AndroidPhone extends Iphone {
 	
 	}
 	@Override
-	public String getCall() {
+	public String getData() {
 		
 		return data;
 	}
