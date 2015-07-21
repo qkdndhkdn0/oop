@@ -1,4 +1,4 @@
-package inhebitance;
+package inheritance;
 
 public class Phone {
 	/*===== 필드 =====*/
