@@ -24,8 +24,17 @@ public class RobotMain {
 		ShieldRobot.run(20);
 		ShieldRobot.setDe(50);
 		
-		GunRobot.status();
-		ShieldRobot.status();
+		//GunRobot.status();
+		//ShieldRobot.status();
+		Robot[] robots = new Robot[2];
+		robots[0] = GunRobot;
+		robots[1] = ShieldRobot;
+		
+		//확장된 폴문
+		
+		for(Robot robot : robots){
+			robot.status();
+		}
 		
 
 	}
